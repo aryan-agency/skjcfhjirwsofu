@@ -25,7 +25,10 @@ const Hero = () => {
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.05] text-balance">
               Transform Your Health{" "}
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
+              <span
+                className="bg-clip-text text-transparent"
+                style={{ backgroundImage: "var(--gradient-primary)" }}
+              >
                 Naturally
               </span>{" "}
               with Yoga & Acupressure
