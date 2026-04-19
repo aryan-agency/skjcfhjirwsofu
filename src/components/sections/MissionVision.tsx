@@ -32,7 +32,7 @@ const MissionVision = () => {
             </div>
             <h3 className="font-display text-2xl font-bold text-foreground mb-3">Mission</h3>
             <p className="text-2xl font-display font-semibold text-primary mb-3">
-              "Disease ko Bharat ke logon se door bhagana"
+              "BIMARI MUKT BHARAT"
             </p>
             <p className="text-muted-foreground leading-relaxed">
               To eliminate disease from every Indian household through awareness, yoga,

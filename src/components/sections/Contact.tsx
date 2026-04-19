@@ -17,7 +17,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {[
             { icon: Phone, label: "Phone", value: "+91 98680 39147", href: "tel:+919868039147" },
-            { icon: Mail, label: "Email", value: "Info@whip.fit", href: "mailto:Info@whip.fit" },
+            { icon: Mail, label: "Email", value: "Info@whip.co.in", href: "mailto:Info@whip.co.in" },
             { icon: MapPin, label: "Address", value: "Savitri Nagar, South Delhi", href: "#" },
           ].map((c, i) => (
             <a

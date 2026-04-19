@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="animate-fade-up">
             <div className="inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary mb-6">
               <Sparkles className="h-4 w-4" />
-              20+ Years of Natural Healing
+              30+ Years of Natural Healing
             </div>
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.05] text-balance">
@@ -35,7 +35,7 @@ const Hero = () => {
             </h1>
 
             <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-              20+ Years of Healing · Founder of <strong className="text-foreground">WHIP</strong> · Co-Founder of <strong className="text-foreground">BU Pain Care Clinic</strong>
+              30+ Years of Healing · Founder of <strong className="text-foreground">WHIP</strong> · Co-Founder of <strong className="text-foreground">BU Pain Care Clinic</strong>
             </p>
 
             <a
@@ -70,7 +70,7 @@ const Hero = () => {
             {/* Trust badges */}
             <div className="mt-10 grid grid-cols-3 gap-4 max-w-md">
               {[
-                { icon: Award, n: "20+", l: "Years Exp." },
+                { icon: Award, n: "30+", l: "Years Exp." },
                 { icon: Users, n: "10K+", l: "Lives Healed" },
                 { icon: Heart, n: "100%", l: "Natural" },
               ].map((t, i) => (
