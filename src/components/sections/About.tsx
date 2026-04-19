@@ -24,7 +24,7 @@ const About = () => {
           <div className="lg:col-span-3 reveal">
             <p className="text-lg text-muted-foreground leading-relaxed">
               Dr. K. K. Jha is a highly experienced Yoga and Acupressure Master with over{" "}
-              <strong className="text-foreground">20 years of dedicated service</strong> in
+              <strong className="text-foreground">30 years of dedicated service</strong> in
               holistic health and wellness. As the Founder of WHIP (World Health Initiative
               for Peace) and Co-Founder of BU Pain Care Clinic, he has guided countless
               individuals toward natural healing — combining ancient Indian wisdom with
