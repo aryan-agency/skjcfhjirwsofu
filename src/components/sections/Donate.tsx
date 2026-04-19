@@ -1,4 +1,5 @@
 import { Heart, MessageCircle } from "lucide-react";
+import donateQr from "@/assets/donate-qr.png";
 
 const DONATE_WHATSAPP =
   "https://wa.me/919868039147?text=Hello%20sir,%20I%20wanted%20to%20chat%20about%20some%20donations,%20Please%20get%20back%20to%20me-%20Thankyou!";
@@ -22,6 +23,25 @@ const Donate = () => {
               Every contribution helps us reach more families with free health camps,
               workshops and natural healing programs across India.
             </p>
+
+            {/* QR Code */}
+            <div className="flex flex-col items-center mb-8">
+              <p className="text-base md:text-lg font-semibold mb-4 text-primary-foreground">
+                Scan to Support Our Mission
+              </p>
+              <div className="bg-card p-3 sm:p-4 rounded-2xl shadow-elegant border-4 border-white/30 ring-2 ring-white/20">
+                <img
+                  src={donateQr}
+                  alt="Donation QR code to support WHIP mission for a disease-free India"
+                  loading="lazy"
+                  className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 object-contain"
+                />
+              </div>
+              <p className="text-sm md:text-base text-primary-foreground/85 mt-4 max-w-md">
+                Take a screenshot or scan this QR to contribute and support our mission of a disease-free India.
+              </p>
+            </div>
+
             <a
               href={DONATE_WHATSAPP}
               target="_blank"
