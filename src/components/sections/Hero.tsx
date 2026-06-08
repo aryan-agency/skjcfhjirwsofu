@@ -24,29 +24,20 @@ const Hero = () => {
             </div>
 
             <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-[1.05] text-balance">
-              Transform Your Health{" "}
-              <span
-                className="bg-clip-text text-transparent"
-                style={{ backgroundImage: "var(--gradient-primary)" }}
-              >
-                Naturally
-              </span>{" "}
-              with Yoga & Acupressure
+             Comprehensive Cancer{" "}
+<span
+  className="bg-clip-text text-transparent"
+  style={{ backgroundImage: "var(--gradient-primary)" }}
+>
+  Treatment
+</span>{" "}
+& Recovery Support
             </h1>
 
             <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-              30+ Years of Healing · Founder of <strong className="text-foreground">WHIP</strong> · Co-Founder of <strong className="text-foreground">BU Pain Care Clinic</strong>
+              Cancer Care & Recovery Support · Founder of <strong className="text-foreground">WHIP</strong> · Co-Founder of <strong className="text-foreground">BU Pain Care Clinic</strong>
             </p>
-
-            <a
-              href="https://youtube.com/@krishnakantjha?si=0MBerWfUY0-NlYfT"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-destructive hover:underline"
-            >
-              <Youtube className="h-5 w-5" />
-              Watch on YouTube @krishnakantjha
-            </a>
+            
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
