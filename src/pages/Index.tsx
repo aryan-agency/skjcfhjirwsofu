@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Hero from "@/components/sections/Hero";
+import DCCP from "@/components/sections/DCCP";
 import About from "@/components/sections/About";
 import MissionVision from "@/components/sections/MissionVision";
 import Services from "@/components/sections/Services";
@@ -16,9 +17,10 @@ const Index = () => {
   return (
     <main className="min-h-screen">
       <Navbar />
-      <Hero />
-      <About />
-      <MissionVision />
+<Hero />
+<DCCP />
+<About />
+<MissionVision />
       <Services />
       <NGO />
       <Clinic />
