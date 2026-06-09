@@ -1,5 +1,5 @@
 import { Heart, MessageCircle } from "lucide-react";
-import donateQr from "@/assets/donate-qr.png";
+import donateQr from "@/assets/donate-qr.png.jpeg";
 
 const DONATE_WHATSAPP =
   "https://wa.me/919868039147?text=Hello%20sir,%20I%20wanted%20to%20chat%20about%20some%20donations,%20Please%20get%20back%20to%20me-%20Thankyou!";
