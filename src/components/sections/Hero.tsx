@@ -34,9 +34,9 @@ const Hero = () => {
 & Recovery Support
             </h1>
 
-            <p className="mt-6 text-lg text-muted-foreground max-w-xl">
-              Cancer Care & Recovery Support · Founder of <strong className="text-foreground">WHIP</strong> · Co-Founder of <strong className="text-foreground">BU Pain Care Clinic</strong>
-            </p>
+           <p className="mt-6 text-lg text-muted-foreground max-w-xl">
+  Know more about DCCP—click below to explore.
+</p>
             
 
             <div className="mt-8 flex flex-wrap gap-4">
