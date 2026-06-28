@@ -16,16 +16,14 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Index />} />
+  <Route path="/" element={<AboutAryanSrivastavAriseAI />} />
 
-{/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+  <Route
+    path="/about-aryan-srivastav-arise-ai"
+    element={<AboutAryanSrivastavAriseAI />}
+  />
 
-<Route
-  path="/about-aryan-srivastav-arise-ai"
-  element={<AboutAryanSrivastavAriseAI />}
-/>
-
-<Route path="*" element={<NotFound />} />
+  <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
