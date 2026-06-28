@@ -16,8 +16,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-  <Route path="/" element={<AboutAryanSrivastavAriseAI />} />
-
+<Route path="/" element={<Index />} />
   <Route
     path="/about-aryan-srivastav-arise-ai"
     element={<AboutAryanSrivastavAriseAI />}
